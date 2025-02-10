@@ -8,6 +8,29 @@ A simple paint application made using SDL2
 - Erasing Mode
 - Save painting feature
 
+## Requirements
+
+- Gcc compiler
+- SDL2 library
+
+## Compilation and Execution
+
+1. **Clone the repository:**
+    ```sh
+    git clone <repository_url>
+    cd <repository_directory>
+    ```
+
+2. **Compile the program:**
+    ```sh
+    gcc paint.c -o paint $(sdl2-config --cflags --libs) -lm
+    ```
+
+3. **Run the program:**
+    ```sh
+    ./paint
+    ```
+
 
 ## Use of the Application
 The application is supported with keyboard shortcuts, the '1' key to switch to brush mode, the '2' key to switch to straight line mode, the '3' key to switch to circle drawing mode and the '4' key to switch to the rectangle drawing key.
